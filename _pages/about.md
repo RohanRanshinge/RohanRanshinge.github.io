@@ -6,4 +6,4 @@ header:
 
 ---
 
-I'm a business analyst with prior experience in Accenture
+I'm a business analyst with prior experience at Accenture
