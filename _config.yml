@@ -120,7 +120,7 @@ author:
       # url: "https://your-website.com"
     - label: "LinkedIn"
       icon: "fa fa-linkedin"
-       url: "https://www.linkedin.com/in/rohanranshinge/"
+      url: "https://www.linkedin.com/in/rohanranshinge/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
        url: ""
