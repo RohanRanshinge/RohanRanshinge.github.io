@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Rohan Ranshinge"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Business Analyst Portfolio."
   location         : "San Francisco"
   email            :
