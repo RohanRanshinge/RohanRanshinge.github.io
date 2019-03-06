@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 header:
-image: "C:/Users/Rohan/Desktop/RohanRanshinge.github.io/images/specs.jpg"
+ image: "C:/Users/Rohan/Desktop/RohanRanshinge.github.io/images/specs.jpg"
 
 ---
 
