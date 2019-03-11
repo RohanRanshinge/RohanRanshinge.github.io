@@ -6,4 +6,4 @@ categories: blog
 ---
 
 Created an Image Classifier using CNN to identify the difference between my brother and I
-<p><a href="https://github.com/RohanRanshinge/Image_classification/blob/master/ML_Image_Processing.ipynb" class="biglink">Link</a></p>
+<p><a href="https://github.com/RohanRanshinge/Image_classification/blob/master/ML_Image_Processing.ipynb" class="link">GitHub Link</a></p>
