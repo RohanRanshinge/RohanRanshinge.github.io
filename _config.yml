@@ -1,36 +1,30 @@
-# site settings
-title: Rohan Ranshinge
-subtitle: MSBA UC Davis
-email: rranshinge@ucdavis.edu
-description: Business Analytics <br /> UC Davis
-baseurl: "https://rohanranshinge.github.io/" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
-author:
-street_address: Eminem
-city: DETROIT
-state: MAHARASHTRA
-zip_code: 55555
-country: INDIA
-phone: (716) 555-5555
+# Site settings
+title: Grayscale
+email: your-email@domain.com
+url: https://example.github.io
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
-# homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
 
-# social settings
-500px_url:
-facebook_url:
-github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-pinterest_url:
-slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+# Footer settings
+footer: Your Website
 
-# build settings
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/SBootstrap
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: https://github.com/IronSummitMedia/startbootstrap
+
+# Build settings
 markdown: kramdown
-
-sass:
-  style: compressed
+permalink: pretty
