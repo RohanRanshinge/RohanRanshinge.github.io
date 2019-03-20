@@ -8,7 +8,7 @@
 	License: GNU General Public License version 3.0
 	License URI: http://www.gnu.org/licenses/gpl-3.0.html
 	Version: 1.0
-	
+
 	1. CSS Reset
 	2. Document Setup
 	3. Header Part
@@ -21,8 +21,8 @@
 	9. Contact Style
 	10.Footer Style
 	11.Responsive style
-		
-		
+
+
 --------------------------------------------------------------------------------/*
 
 /*----------------------------------------------------
@@ -32,17 +32,18 @@
 	padding:0;
 	margin:0;
 }
-html { font-size: 100%; 
-	-webkit-text-size-adjust: 100%; 
-	-ms-text-size-adjust: 100%; 
-	text-rendering: optimizelegibility; 
+html { font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-rendering: optimizelegibility;
 }
 body {
 	color:#888089;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	position:relative;
-	background:#000;
+	/*background:#000; original */
+	background:#fff;
 	width:100%;
 	height:100%;
 	overflow: scroll;
@@ -411,12 +412,12 @@ header{
     -moz-transition: all .5s;
     -webkit-transition: all .5s;
     transition: all .5s;
-	
+
 	background: transparent;
 }
 .isStuck{
 	background:#fff ;
-	
+
 	-o-transition: all .5s;
     -ms-transition: all .5s;
     -moz-transition: all .5s;
@@ -655,7 +656,7 @@ header{
 	text-decoration:none;
 	border-right:none;
 	letter-spacing:2px;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
@@ -663,7 +664,7 @@ header{
 .portfolioFilter ul li a:hover{
 	border-color:#cfcfcf;
 	color:#000;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
@@ -706,20 +707,20 @@ span.hoverBox{
 	position: absolute;
 	left:0px;
 	bottom: 0px;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
-	
+
 	background: rgba(76, 64, 78, 0);
-	
+
 }
 ul.portfolioContainer li:hover span.hoverBox{
 	visibility:visible;
 	left:0px;
 	bottom: 0px;
-	
+
 	background: rgba(76, 64, 78, 0.9);
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
@@ -753,10 +754,10 @@ span.hoverBox .zoom{
 	line-height:70px;
 	display: block;
 	float: left;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
-	
+
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 }
@@ -764,7 +765,7 @@ ul.portfolioContainer li:hover span.hoverBox .zoom{
 	visibility:visible;
 	left:0;
 	padding-top:7px;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
@@ -786,10 +787,10 @@ span.hoverBox .linKed{
 	line-height:52px;
 	display: block;
 	float: right;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
-	
+
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 }
@@ -797,7 +798,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	visibility:visible;
 	right:0%;
 	padding-top:7px;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
@@ -823,7 +824,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 }
 .isotope .isotope-item {
 	padding:0;
-	
+
     -webkit-transition-property: -webkit-transform, opacity;
     -moz-transition-property: -moz-transform, opacity;
     transition-property: transform, opacity;
@@ -856,7 +857,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	margin-left: -26% !important;
 	padding: 0px !important;
 	height:80px !important;
-	
+
 	display: block;
 	background-color: rgba(24,27,34,1);
 	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#B0000000, EndColorStr=#B0000000);
@@ -1003,7 +1004,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	line-height:145px;
 	width:150px;
 	height:150px;
-	
+
 	-webkit-border-radius: 50%;
     border-radius: 50%;
 }
@@ -1046,7 +1047,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	margin:0 17px 14px;
 	width:55px !important;
 	height:55px !important;
-	
+
 	-webkit-border-radius: 50%;
     border-radius: 50%;
 }
@@ -1095,7 +1096,8 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	left:0;
 	right:0;
 	bottom:0;
-	background-color:#fff; /* change if the mask should have another color then white */
+	background-color:#000;
+	/*background-color:#fff;*/ /*original change if the mask should have another color then white */
 	z-index:9999999999; /* makes sure it stays on top */
 }
 
@@ -1126,7 +1128,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		height:140px;
 		padding-top:50px;
 	}
-	
+
 	.education .workYear{
 		padding-top:58px;
 	}
@@ -1145,7 +1147,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	.proPic{
 		text-align:center;
 	}
-	
+
 	.navbar-inverse .navbar-toggle .icon-bar{
 		background:#000;
 	}
@@ -1171,16 +1173,16 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	#header h3 span{
 		font-size: 16px;
 	}
-	
+
 	.abc{
 		width:100%;
 	}
 	.navArea {
 		float:none;
 	}
-	
 
-	
+
+
 }
 
 
@@ -1225,7 +1227,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	.navbar.navbar-inverse.navbar-static-top a:hover{
 		background:none;
 	}
-	
+
 	.navbar-nav > li{
 		float:none;
 		display:block;
@@ -1240,7 +1242,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 
 	ul.portfolioContainer li.col-xs-6{
 		width:49%;
-		min-height: 85px;		
+		min-height: 85px;
 	}
 	.navbar-toggle {
 		margin-top: 23px;
@@ -1255,7 +1257,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		float:right;
 	}
 
-	
+
 }
 
 
@@ -1323,7 +1325,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 
 
 @media screen and (max-width: 650px) {
-	
+
 	#wrapper{
 		top: 200px !important;
 	}
@@ -1334,7 +1336,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		transform: translate(0px, -70px);
 		-ms-transform: translate(0px, -70px); /* IE 9 */
 		-webkit-transform: translate(0px, -70px); /* Safari and Chrome */
-	}	
+	}
 	.bannerText {
 		padding-top:15px;
 		padding-bottom:15px;
@@ -1367,8 +1369,8 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	.skillbar:last-child {
 		margin-bottom:0;
 	}
-	
-	
+
+
 }
 
 
@@ -1383,7 +1385,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		font-size:15px;
 		padding-bottom:20px;
 	}
-	
+
 }
 
 
@@ -1396,27 +1398,27 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		min-height: 600px;
 		height: 100%;
 	}
-	
+
 	.item{
 		width: 19%;
 	}
 	.item p {
 		font-size: 36px;
 	}
-	
+
 	.ourservice img{
 		width:100%;
 	}
-	
+
 	ul.portfolioContainer li.col-xs-6{
 		width:100%;
 	}
-	
+
 	.bntDownload{
 		font-size: 13px;
 		padding: 16px 14px;
 	}
-	
+
 	.conForm textarea{
 		margin-bottom:20px;
 	}
@@ -1424,11 +1426,11 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		display:block;
 		padding:0 0 40px 0;
 	}
-	
+
 	.nameError,
 	.emailError{
 		left:0px;
 		top:0px;
-		
+
 	}
 }
